@@ -10,14 +10,20 @@ body {
 h2 {
     text-align: center;
     font-size:22px;
+    width: 80%;
+    height: 80%;
 }
 
 form div {
     margin-bottom: 10px;
+    width: 80%;
+    height: 80%;
 }
 
 label {
     display: block;
+    width: 80%;
+    height: 80%;
     font-size:22px;
     margin-bottom: 5px;
 }
@@ -26,6 +32,8 @@ input[type="number"],
 input[type="text"] {
     width: 100%;
     font-size:22px;
+    width: 80%;
+    height: 80%;
     padding: 5px;
     box-sizing: border-box;
 }
@@ -34,6 +42,8 @@ button {
     width: 100%;
     font-size:20px;
     padding: 10px;
+    width: 80%;
+    height: 80%;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -43,15 +53,21 @@ button {
 button:hover {
     background-color: #45a049;
     font-size:22px;
+    width: 80%;
+    height: 80%;
 }
 
 h3 {
     margin-top: 15px;
     text-align: center;
+    width: 80%;
+    height: 80%;
 }
 
 input[readonly] {
     background-color: #f0f0f0;
+    width: 80%;
+    height: 80%;
     font-size:22px;
     border: none;
     padding: 5px;
