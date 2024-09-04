@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Pixel Profit Calculator",
+  "version": "1.0",
+  "description": "Calculate profit based on PIXEL price, spent coins, and earned pixels.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.binance.com/*"
+  ]
+}

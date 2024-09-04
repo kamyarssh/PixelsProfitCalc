@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;   /* Use Google Fonts */
+    background-color: #153131;           /* Dark background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    background-color: #1C3034;           /* Card background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    color: #f5f5f5;                     /* Text color for readability */
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 38px;                    /* Slightly smaller font size */
+    color: #f5f5f5;                     /* Heading color */
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+input[type="number"],
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8c7051;          /* Border color */
+    border-radius: 6px;
+    font-size: 24px;
+    text-align: left;                  /* Align numbers to the right */
+    background-color: #315659;          /* Input background color */
+    color: #f5f5f5;   /* Input text color */
+    
+}
+
+input[type="text"]::placeholder {
+    color: #C5EFCB; /* Placeholder color */
+    opacity: 1; /* Ensure the color is not faded */
+}
+
+
+input[type="text"]:focus {
+    border-color: #2978a0;              /* Red border on focus */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 88%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #8c7051;          /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8c7051;          /* Red on hover */
+}
+
+/* Results Styling */
+#pixel-price {
+  color: #faff81;
+}
+#results p {
+    font-size: 24px;
+    margin: 15px 0px;
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 8%
+}
+
+#profit {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+#profit.positive {
+    color: #45cb85;                     /* Green for positive profit */
+}
+
+#profit.negative {
+    color: #ef3054;                     /* Red for negative profit */
+}

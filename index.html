@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Profit Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pixels Profit Calculator</h1>
+        <input type="text" inputmode="numeric" pattern="[0-9]*" id="spent-coins" placeholder="Spent coins">
+        <input type="text" inputmode="numeric" pattern="[0-9]*" id="earned-pixels" placeholder="Earned pixels">
+        <input type="text" inputmode="numeric" pattern="[0-9]*" id="coin-price" placeholder="Coin price (Toman)">
+        <input type="text" inputmode="numeric" pattern="[0-9]*" id="dollar-price" value="60,000" placeholder="Dollar price (Toman)">
+        <button id="calculate-btn">Calculate</button>
+        
+        <div id="results">
+            <p id="pixel-price">Price: $ 0</p>
+            <p id="cost-p">Cost/Pixels: 0 coins</p>
+            <p id="spent-coins-toman-price">Spent: 0 Toman</p>
+            <p id="earned-pixels-toman-price">Earned: 0 Toman</p>
+            <p id="profit">Profit: 0 Toman</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
