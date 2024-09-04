@@ -3,11 +3,12 @@ body {
     font-size:22px;
     margin-left: 60px;
     padding: 10px;
-    width: 450px;
+    width: 650px;
 }
 
 h2 {
     text-align: center;
+    font-size:22px;
 }
 
 form div {
@@ -16,18 +17,21 @@ form div {
 
 label {
     display: block;
+    font-size:22px;
     margin-bottom: 5px;
 }
 
 input[type="number"],
 input[type="text"] {
     width: 100%;
+    font-size:22px;
     padding: 5px;
     box-sizing: border-box;
 }
 
 button {
     width: 100%;
+    font-size:20px;
     padding: 10px;
     background-color: #4CAF50;
     color: white;
@@ -37,6 +41,7 @@ button {
 
 button:hover {
     background-color: #45a049;
+    font-size:22px;
 }
 
 h3 {
@@ -46,6 +51,7 @@ h3 {
 
 input[readonly] {
     background-color: #f0f0f0;
+    font-size:22px;
     border: none;
     padding: 5px;
     box-sizing: border-box;
