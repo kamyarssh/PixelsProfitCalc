@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const earnedPixelsTomanPrice = earnedPixels * pixelPrice * dollarPrice;
                 const profit = earnedPixelsTomanPrice - spentCoinsTomanPrice;
                 const cpp = spentCoins/earnedPixels;
+                const dollarProfit = profit / dollarPrice;
                 const gpp = addCommas(cpp.toFixed(0).toString());
 
                 // Update the results in the DOM
@@ -74,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     profitElement.className = 'negative';
                 }
 
-                profitElement.textContent = `Profit: ${addCommas(profit.toFixed(0))} Toman`;
+                profitElement.textContent = `Profit: ${addCommas(profit.toFixed(0))} Toman ($${addComma(dollarProfit.toFixed(2)})`;
             })
             .catch(error => {
                 console.error('Error fetching PIXEL price:', error);
