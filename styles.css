@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: 'Roboto', sans-serif;   /* Use Google Fonts */
-    background-color: #121414;           /* Dark background color */
+    background-color: #131a1a;           /* Dark background color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,10 +12,10 @@ body {
 
 /* Container Styling */
 .container {
-    background-color: #1C3034;           /* Card background color */
+    background-color: #18343f7d;           /* Card background color */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    border-radius: 64px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 23%);  /* Soft shadow for depth */
     width: 90%;
     height: 100%;
     max-width: 500px;
@@ -35,10 +35,10 @@ h1 {
 input[type="number"],
 input[type="text"] {
     width: 80%;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px 0;
     border: 1px solid #8c7051;          /* Border color */
-    border-radius: 6px;
+    border-radius: 30px;
     font-size: 24px;
     text-align: left;                  /* Align numbers to the right */
     background-color: #315659;          /* Input background color */
@@ -65,8 +65,8 @@ button {
     background-color: #8c7051;          /* Button background color */
     color: white;
     border: none;
-    border-radius: 6px;
-    font-size: 30px;
+    border-radius: 30px;
+    font-size: 40px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -77,7 +77,7 @@ button:hover {
 
 /* Results Styling */
 #pixel-price {
-  color: #faff81;
+  color: #f5ff00;
 }
 #results p {
     font-size: 24px;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 #profit {
-    font-size: 32px !important;
+    font-size: 28px !important;
     font-weight: bold;
 }
 
