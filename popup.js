@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     profitElement.className = 'negative';
                 }
 
-                profitElement.textContent = `Profit: ${addCommas(profit.toFixed(0))} Toman ($${addComma(dollarProfit.toFixed(2)})`;
+                profitElement.textContent = `Profit: ${addCommas(profit.toFixed(0))} Toman ($${addCommas(dollarProfit.toFixed(2)})`;
             })
             .catch(error => {
                 console.error('Error fetching PIXEL price:', error);
