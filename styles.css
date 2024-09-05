@@ -90,6 +90,7 @@ button:hover {
 #profit {
     font-size: 28px !important;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 #profit.positive {
