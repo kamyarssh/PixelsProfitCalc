@@ -6,14 +6,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 20px 10px 20px 40px;
+    padding: 15px;
     margin: 0;
 }
 
 /* Container Styling */
 .container {
     background-color: #18343f7d;           /* Card background color */
-    padding: 40px 20px;
+    padding: 20px 20px 20px 40px;
     border-radius: 64px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 23%);  /* Soft shadow for depth */
     width: 90%;
