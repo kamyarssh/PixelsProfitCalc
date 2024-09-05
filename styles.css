@@ -88,9 +88,8 @@ button:hover {
 }
 
 #profit {
-    font-size: 28px !important;
+    font-size: 26px !important;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 #profit.positive {
